@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using API.Enitites;
 using Microsoft.EntityFrameworkCore;
 
+
+// this class bridge between our code and db
 namespace API.Data
 {
     public class DataContext : DbContext
